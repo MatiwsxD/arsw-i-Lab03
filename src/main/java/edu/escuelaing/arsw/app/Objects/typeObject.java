@@ -13,6 +13,9 @@ public class typeObject {
                 return new ObjectHtml(clientSocket);
             case jpg :
                 return new ObjectImg(clientSocket,type);
+
+            case js:
+                return new ObjectJS(clientSocket);
         }
 
         return null;
