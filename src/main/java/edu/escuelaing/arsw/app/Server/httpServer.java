@@ -58,7 +58,7 @@ public class httpServer {
                 genObject obj = typeObject.build(ContentType.valueOf(ruta.split("\\.")[ruta.split("\\.").length - 1]),clientSocket);
                 obj.createHttp(ruta);
                 obj.sendResult();
-                String outputLine = "HTTP/1.1 200 OK\r\n"
+                String outputLine = "HTTP/1.1 404 \r\n"
                         + "Content-Type: text/html\r\n"
                         + "\r\n"
                         + "<!DOCTYPE html>\n"
