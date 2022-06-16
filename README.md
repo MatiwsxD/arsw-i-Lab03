@@ -67,6 +67,8 @@ java -cp ".\target\classes" edu.escuelaing.arsw.app.App loc D:\Escritorio\arsw-i
 ```
 
 6. Diagrama de clases
+
+
    ![Imágen 1](img/2.png)
 
 
